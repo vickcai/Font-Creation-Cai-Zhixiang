@@ -1,4 +1,4 @@
-size(400,400);
+size(400,400);{
 background(200);
 stroke(255);
 fill(0);
@@ -41,4 +41,6 @@ ellipse(p15[0],p15[1],8,8);
 ellipse(p16[0],p16[1],8,8);
 ellipse(p17[0],p17[1],8,8);
 
-
+// Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font2-jpg"); 
+  }
