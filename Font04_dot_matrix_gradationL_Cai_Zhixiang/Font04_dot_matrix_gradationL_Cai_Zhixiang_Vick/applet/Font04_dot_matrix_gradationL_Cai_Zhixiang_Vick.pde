@@ -21,7 +21,11 @@ for(i = 0; i < 4; i++ ){
     float d = map(X,x[0],x[i+1],dot_size,dot_size * 0.2);
     //rect( X , Y , d, d);
     rect( X  , Y  , d, d);
+ // Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font4.jpg"); 
     }
+
+ 
   }
 }
 
