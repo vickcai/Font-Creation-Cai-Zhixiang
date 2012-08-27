@@ -42,5 +42,5 @@ ellipse(p16[0],p16[1],8,8);
 ellipse(p17[0],p17[1],8,8);
 
 // Saves each frame as screen-0000.tif, screen-0001.tif, etc.
-  saveFrame("Font2-jpg"); 
+  saveFrame("Font2.jpg"); 
   }
