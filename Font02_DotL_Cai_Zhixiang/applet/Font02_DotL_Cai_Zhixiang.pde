@@ -1,4 +1,10 @@
-size(400,400);
+/**
+ Construction of L using basic dots: eample by yuta nakayama
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
+size(400,400);{
 background(200);
 stroke(255);
 fill(0);
@@ -41,4 +47,6 @@ ellipse(p15[0],p15[1],8,8);
 ellipse(p16[0],p16[1],8,8);
 ellipse(p17[0],p17[1],8,8);
 
-
+// Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font2.jpg"); 
+  }

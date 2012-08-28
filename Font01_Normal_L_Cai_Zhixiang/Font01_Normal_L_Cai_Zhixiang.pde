@@ -1,4 +1,9 @@
-
+/**
+ White strokeless L: A basic "L"
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 void setup(){
 size(400,400);
 

@@ -17,7 +17,12 @@ import java.util.regex.*;
 
 public class Font01_Normal_L_Cai_Zhixiang extends PApplet {
 
-
+/**
+ White strokeless L: A basic "L"
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 public void setup(){
 size(400,400);
 
@@ -31,7 +36,8 @@ stroke(255);
 rect(150,50,50,300);
 rect(150,300,150,50);
 
-
+// Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font1.jpg"); 
 }
   static public void main(String args[]) {
     PApplet.main(new String[] { "--bgcolor=#F0F0F0", "Font01_Normal_L_Cai_Zhixiang" });

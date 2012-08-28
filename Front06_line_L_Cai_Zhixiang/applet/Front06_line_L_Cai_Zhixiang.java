@@ -17,6 +17,12 @@ import java.util.regex.*;
 
 public class Front06_line_L_Cai_Zhixiang extends PApplet {
 
+/**
+ Construction of L using basic line works. 
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 public void setup(){
 size(400,400);
 
@@ -34,7 +40,12 @@ line(150,350,300,350);
 line(300,350,300,300);
 line(300,300,200,300);
 
+
+    // Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font6.jpg"); 
 }
+
+
   static public void main(String args[]) {
     PApplet.main(new String[] { "--bgcolor=#F0F0F0", "Front06_line_L_Cai_Zhixiang" });
   }

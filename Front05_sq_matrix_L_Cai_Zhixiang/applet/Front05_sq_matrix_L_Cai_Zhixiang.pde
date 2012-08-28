@@ -1,3 +1,9 @@
+/**
+ Construction of L using square matrix: example by yuta nakayama
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 size(400,400);
 background(200);
 stroke(0);
@@ -45,5 +51,10 @@ for(Y = y3; Y < y4; Y = Y + grain_size){
   for(X = x0; X < x2; X = X + grain_size){
     rect(X,  Y, grain_size, grain_size);
     //ellipse( X , Y , grain_size, grain_size);
+    
+ 
   }
 }
+
+    // Saves each frame as screen-0000.tif, screen-0001.tif, etc.
+  saveFrame("Font5.jpg"); 

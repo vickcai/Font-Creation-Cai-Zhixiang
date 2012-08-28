@@ -1,3 +1,9 @@
+/**
+ Construction of L using basic dots: example by yuta nakayama
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 size(400,400);{
 background(200);
 stroke(255);

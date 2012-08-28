@@ -17,6 +17,12 @@ import java.util.regex.*;
 
 public class Font04_dot_matrix_gradationL_Cai_Zhixiang_Vick extends PApplet {
   public void setup() {
+/**
+ Square dot matrix gradation of L: example by yuta nakayama
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 size(400,400);
 background(200);
 noStroke();

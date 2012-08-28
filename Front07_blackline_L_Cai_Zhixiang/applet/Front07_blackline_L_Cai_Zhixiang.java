@@ -17,6 +17,12 @@ import java.util.regex.*;
 
 public class Front07_blackline_L_Cai_Zhixiang extends PApplet {
   public void setup() {
+/**
+ Construction of L using strokeweight creating dot illusions: 
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
+ 
 size(400, 400);
 smooth();
 fill(0);

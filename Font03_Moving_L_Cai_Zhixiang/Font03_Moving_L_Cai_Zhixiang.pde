@@ -1,4 +1,8 @@
-
+/**
+ Animation of L: L moving along the x-axis.
+ Cai Zhixiang 28/08/2012
+ a0087731@nus.edu.sg
+ */
 void setup(){
 size(400,400);
 int i = 0;
